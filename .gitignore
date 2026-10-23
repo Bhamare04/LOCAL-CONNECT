@@ -26,3 +26,4 @@ server/.env
 # Python
 __pycache__/
 *.py[cod]
+.dvc-storage/
