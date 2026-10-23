@@ -60,7 +60,13 @@ export const Magnetic = ({ children, strength = 0.5 }) => {
   );
 };
 
-export const GlassButton = ({ children, variant = 'primary', onClick, className = '' }) => {
+export const GlassButton = ({
+  children,
+  variant = 'primary',
+  onClick,
+  className = '',
+  type = 'button'
+}) => {
   const variants = {
     primary: 'glass-button-primary',
     accent: 'glass-button-accent',
@@ -68,7 +74,7 @@ export const GlassButton = ({ children, variant = 'primary', onClick, className 
   };
 
   return (
-    <button onClick={onClick} className={`${variants[variant]} ${className}`}>
+    <button type={type} onClick={onClick} className={`${variants[variant]} ${className}`}>
       {children}
     </button>
   );

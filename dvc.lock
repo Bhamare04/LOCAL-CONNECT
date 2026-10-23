@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python ml/scripts/preprocess_recommendation_data.py
+    deps:
+    - path: ml/data/online_places.csv
+      hash: md5
+      md5: f2f6eb91c2db83be098a0eb14f4a05d7
+      size: 52085
+    - path: ml/recommendation/feature_engineering.py
+      hash: md5
+      md5: 3ae1409c75c779a50c8eaba93a28f573
+      size: 5543
+    - path: ml/scripts/preprocess_recommendation_data.py
+      hash: md5
+      md5: 545a7fedab4788d05b800ead5055c0f7
+      size: 830
+    outs:
+    - path: ml/data/processed_places.csv
+      hash: md5
+      md5: 1e320ab6392a3931122861e086138c5a
+      size: 52993
+  train:
+    cmd: python ml/scripts/train_recommender.py
+    deps:
+    - path: ml/data/processed_places.csv
+      hash: md5
+      md5: 1e320ab6392a3931122861e086138c5a
+      size: 52993
+    - path: ml/recommendation/feature_engineering.py
+      hash: md5
+      md5: 3ae1409c75c779a50c8eaba93a28f573
+      size: 5543
+    - path: ml/recommendation/recommender.py
+      hash: md5
+      md5: 97e46551a197bd232f12f2718970627c
+      size: 7077
+    - path: ml/scripts/train_recommender.py
+      hash: md5
+      md5: 3b7e694d45f3bc74c878665d8caa4553
+      size: 899
+    outs:
+    - path: ml/models/travel_recommender.pkl
+      hash: md5
+      md5: c04a2612729602e6b475e8dbb53b8139
+      size: 112016

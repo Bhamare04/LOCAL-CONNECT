@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Compass, MessageSquare, LayoutDashboard, Search, Menu, X, User, LogOut } from 'lucide-react';
+import { Compass, MessageSquare, LayoutDashboard, Sparkles, Search, Menu, X, User, LogOut } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../../context/AuthContext';
 import { auth } from '../../firebase/config';
@@ -30,6 +30,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Explore', path: '/explore', icon: <Compass size={18} /> },
+    { name: 'Travel Recommendations', path: '/travel-recommendations', icon: <Sparkles size={18} /> },
     { name: 'Messages', path: '/chat', icon: <MessageSquare size={18} /> },
     ...(currentUser && userData?.role === 'local' ? [{ name: 'Dashboard', path: '/dashboard', icon: <LayoutDashboard size={18} /> }] : []),
   ];

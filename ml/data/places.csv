@@ -1,0 +1,51 @@
+place_id,place_name,city,category,entry_fee,estimated_visit_hours,average_rating,rating_count,indoor_outdoor,rain_suitability,heat_suitability,best_season
+1,Gateway of India,Mumbai,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+2,Marine Drive,Mumbai,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+3,Colaba Causeway,Mumbai,Shopping,,,,,Outdoor,Unknown,Unknown,Unknown
+4,Chhatrapati Shivaji Maharaj Terminus,Mumbai,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+5,Elephanta Caves,Mumbai,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+6,Hawa Mahal,Jaipur,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+7,Amer Fort,Jaipur,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+8,City Palace,Jaipur,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+9,Jantar Mantar,Jaipur,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+10,Jal Mahal,Jaipur,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+11,Dumas Beach,Surat,Beach,,,,,Outdoor,Unknown,Unknown,Unknown
+12,Dutch Garden,Surat,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+13,Surat Castle,Surat,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+14,Sarthana Nature Park,Surat,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+15,Gopi Talav,Surat,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+16,Sula Vineyards,Nashik,Food,,,,,Outdoor,Unknown,Unknown,Unknown
+17,Panchavati,Nashik,Religious,,,,,Mixed,Unknown,Unknown,Unknown
+18,Trimbakeshwar Temple,Nashik,Religious,,,,,Mixed,Unknown,Unknown,Unknown
+19,Pandavleni Caves,Nashik,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+20,Anjaneri Hills,Nashik,Adventure,,,,,Outdoor,Unknown,Unknown,Unknown
+21,Laxmi Vilas Palace,Vadodara,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+22,Sayaji Baug,Vadodara,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+23,Champaner-Pavagadh,Vadodara,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+24,Kirti Mandir,Vadodara,Cultural,,,,,Mixed,Unknown,Unknown,Unknown
+25,Baroda Museum and Picture Gallery,Vadodara,Cultural,,,,,Indoor,Unknown,Unknown,Unknown
+26,Lalbagh Botanical Garden,Bangalore,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+27,Bangalore Palace,Bangalore,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+28,Cubbon Park,Bangalore,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+29,ISKCON Temple Bangalore,Bangalore,Religious,,,,,Mixed,Unknown,Unknown,Unknown
+30,Vidhana Soudha,Bangalore,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+31,Red Fort,New Delhi,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+32,Qutub Minar,New Delhi,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+33,India Gate,New Delhi,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+34,Humayun's Tomb,New Delhi,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+35,Lotus Temple,New Delhi,Religious,,,,,Mixed,Unknown,Unknown,Unknown
+36,Marina Beach,Chennai,Beach,,,,,Outdoor,Unknown,Unknown,Unknown
+37,Kapaleeshwarar Temple,Chennai,Religious,,,,,Mixed,Unknown,Unknown,Unknown
+38,Fort St. George,Chennai,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+39,Govt. Museum Chennai,Chennai,Cultural,,,,,Indoor,Unknown,Unknown,Unknown
+40,Arignar Anna Zoological Park,Chennai,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+41,Charminar,Hyderabad,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+42,Golconda Fort,Hyderabad,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+43,Ramoji Film City,Hyderabad,Entertainment,,,,,Mixed,Unknown,Unknown,Unknown
+44,Hussain Sagar,Hyderabad,Nature,,,,,Outdoor,Unknown,Unknown,Unknown
+45,Salar Jung Museum,Hyderabad,Cultural,,,,,Indoor,Unknown,Unknown,Unknown
+46,Victoria Memorial,Kolkata,Historical,,,,,Mixed,Unknown,Unknown,Unknown
+47,Howrah Bridge,Kolkata,Historical,,,,,Outdoor,Unknown,Unknown,Unknown
+48,Dakshineswar Kali Temple,Kolkata,Religious,,,,,Mixed,Unknown,Unknown,Unknown
+49,Indian Museum,Kolkata,Cultural,,,,,Indoor,Unknown,Unknown,Unknown
+50,Park Street,Kolkata,Food,,,,,Outdoor,Unknown,Unknown,Unknown

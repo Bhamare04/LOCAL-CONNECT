@@ -9,6 +9,7 @@ import Footer from './components/common/Footer';
 // Pages
 import Home from './pages/Home';
 import Explore from './pages/Explore';
+import TravelRecommendations from './pages/TravelRecommendations';
 import Profile from './pages/Profile';
 import Chat from './pages/Chat';
 import Dashboard from './pages/Dashboard';
@@ -47,6 +48,7 @@ function App() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/travel-recommendations" element={<TravelRecommendations />} />
             <Route path="/profile/:id" element={<Profile />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/chat" element={<Chat />} />
